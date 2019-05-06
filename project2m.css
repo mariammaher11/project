@@ -1,0 +1,217 @@
+body{
+    background-image:url(music.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+.o{
+    background: hsla(206, 18%, 36%, 0.657);
+}
+#first {
+    width: 100%;
+    height:7%;
+    background: white ;
+    margin-top: 0px;
+    position: absolute;
+}
+#youtube {
+    float: left;
+    
+}
+h3{
+    font-size: 50px;
+    letter-spacing: 2px; 
+    color: firebrick;
+    font-style: italic;
+    margin-top:0%;
+    margin-left: 5%;
+
+}
+#search {width:60%;
+    height:60%;
+   margin-left:17%;
+    border-radius: 4px;
+    display: inline;
+    position: absolute;
+    margin-top: -4.8%;
+    
+}
+
+    
+
+#side{
+    float: right;
+    height:1000;
+    width: 30%;
+    position: relative;
+    margin-top: -70%;
+    right: 0px;
+    border-radius: 20px;
+    }
+ fieldset{
+    background-color: rgba(20, 20, 20, 0.8);
+    margin-left: 440px;
+    float: right;
+    display: inline;
+     margin-top:-40%;
+     position: relative;
+     width:60%;
+     height:117%;
+
+    
+}
+legend{
+    color:darkred;
+    font-size: 170%;
+}
+table{
+    border-style: double;
+    border-color: cornsilk;
+    margin-left: 5px;
+    height:15%;
+    width: 100%;
+    font-size: 110%;
+}
+td{
+    color: floralwhite;
+}
+#transfer{
+    margin-left: 87%;
+    top:-800px;
+    color: palevioletred;
+    background-color: bisque;
+    border-radius: 20%;
+    position: relative;
+    display: inline;
+    width: 10%;
+    height: 5%;
+    font-size:25px;
+    
+}
+#go{
+    left: 200px;
+    bottom: 4px;
+    position: relative;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    margin: 200px;
+    text-decoration: none;
+    
+}
+
+#top{
+    float: left;
+    background-color:white;
+    border-style:ridge; 
+    padding: 0%;
+        margin: 0%;
+    width: 25%;
+    height: 93%;
+    margin-top: 8%;
+    top: 0;
+}
+.pic{
+    position: relative;
+    left:5%;
+    margin-top: -10%;
+    height: 15%;
+    width: 15%;
+}
+.nam{
+    position: relative;
+    left: 27%;
+    font-size: 27px;
+    margin: 0; 
+    margin-top:-25%;
+}
+.singer{
+    font-size: 15px;
+    position: relative;
+    left: 30%;
+    top: -115%;
+}
+.content{
+    text-align: center;
+    }
+.mfp-hide{
+    display: none !important;
+}
+.button{
+    padding: 2px 2px;
+    border:1px solid black;
+    font-size: 110%;;
+    display: inline-block;
+    position: relative;
+    top: -120%;
+    left: 70%;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 50px;
+    text-decoration: none;
+    width: 20%;
+    height: 3.5%;
+    
+    
+}
+.button:hover, .button:focus{
+    background: transparent;
+    color: black;
+    outline: none;
+}
+    
+.it{
+    
+    background-color: gainsboro;
+    position: relative;
+    
+}
+
+.one{
+    background-color: black;
+    color: aliceblue;
+}
+}
+.hi{
+    background-color: gainsboro;
+    margin-top: 0%;
+    height: 20%;
+ 
+}
+#second{
+    
+   background-color: rgba(20, 20, 20, 0.8);
+    right: 440px;
+    float: left;
+    display: inline;
+     margin-top:20%;
+     position: relative;
+     width: 60%;
+     height: 1190px; 
+}
+#transfer2{
+     margin-left: 900px;
+    top:20px;
+    color: palevioletred;
+    background-color: bisque;
+    border-radius: 20%;
+    position: relative;
+    display: inline;
+    width: 10%;
+    height: 5%;
+    font-size: 25px;
+}
+#bar{
+    margin-bottom: 0px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    position: relative;
+    top: 7%;
+    width: 100%;
+    height: 5%;
+}
+#play{
+    position: relative;
+    left: 1600px;
+    top: 30px;
+}
