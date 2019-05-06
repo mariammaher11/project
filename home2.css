@@ -1,0 +1,115 @@
+body { 
+    background: url('pexel.jpeg') ; 
+    overflow-x: hidden; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+    position: relative; 
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+} 
+
+.title { 
+    background: rgba(20, 2, 2, 0.904) 5% 5%; 
+    height: 70px; 
+    margin: 5px; 
+    padding: 15px; 
+    position: fixed; 
+    top: 0%; 
+    width: 100%; 
+    border-radius: 5px; 
+    z-index: 10; 
+} 
+.label { 
+    font-size: 40px; 
+    letter-spacing: 5px; 
+    color: rgba(175, 10, 10, 0.925); 
+    display: inline; 
+    padding: 10px; 
+}
+.main { 
+    background: hsla(206, 18%, 36%, 0.657); 
+    height: 700px; 
+    width: 90%; 
+    margin: auto; 
+    padding: 30px; 
+    border-radius: 20px; 
+    position: absolute; 
+    top: 105px; 
+    left: 3%; 
+    max-width: 100%; 
+} 
+legend { 
+    background: rgba(5, 5, 5, 0.568); 
+    color: azure; 
+    font-size: 36px; 
+    letter-spacing: 10px; 
+    border-radius: 7px; 
+    padding: 10px;
+
+} 
+fieldset { 
+    height: 100%; 
+    border-color: rgba(5, 5, 5, 0.568); 
+} 
+
+a { 
+    text-decoration: none; 
+    color: rgba(241, 238, 15, 0.904); 
+
+} 
+label:hover { 
+    cursor: pointer; 
+} 
+.search { 
+    width: 60%; 
+    padding: 12px 20px; 
+    margin: 8px; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+label{
+    font-size: 40px; 
+    letter-spacing: 5px; 
+    color: rgba(4, 17, 27, 0.945); 
+    display: inline; 
+    padding: 15px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.list{
+    border-radius: 10px;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+    margin: auto;
+    font-weight: bold;
+}
+.you{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 400%;
+    text-align: center;
+   
+    color: rgba(179, 0, 0, 0.938);
+    background: rgba(0, 0, 0, 0.445) 60% 20%;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    border-radius: 15px;
+    border-color:  rgba(0, 0, 0, 0.596) ;
+}
+.y{
+    color: rgba(250, 18, 18, 0.795);
+}
+.lin{
+    color: rgba(250, 18, 18, 0.795);
+    margin: auto;
+    position: relative;
+    left: 12%;
+    font-family: monospace;
+    font-size: 200%;
+    
+}
