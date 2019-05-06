@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>YOUTUBE GATE </title> 
+        <link rel="icon" href="ico2.ico">
+        <link rel="stylesheet" href="p2.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <header>
+            <div class="t2">
+            <h2 class="tit"> Y O U T U B E &nbsp;&nbsp; G A T E </h2>
+                <ul>
+                    <li onmouseover="changeTo(this)" onmouseout="changeBack(this)"> <a href=> HOME </a></li>
+                    <li onmouseover="changeTo(this)" onmouseout="changeBack(this)"> <a href="p1.html"> SERIES </a></li>
+                    <li onmouseover="changeTo(this)" onmouseout="changeBack(this)"> <a href=""> MUSIC </a></li>
+                    <li onmouseover="changeTo(this)" onmouseout="changeBack(this)"> <a href=""> COURESES </a></li>
+                </ul>
+            </div>
+           </header>
+
+        <table class="seriesTable">
+            <tr class="R1">
+                <td rowspan="4" class="seriesImg"> 
+                    <img  class="poster" src="img15.jpg">
+                </td>
+
+                <td rowspan="4" class="seriesImg">
+                    <iframe class="seriesTrailer" width="330" height="290" class="watching"
+                    src="https://www.youtube.com/embed/oVzVdvGIC7U" frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media;
+                     gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </td>
+
+                <td class="info"> SERIES NAME</td>
+                <td class="info">PEAKY BLINDERS</td>
+            </tr>
+
+            <tr class="R1">
+                <td class="info"> SEASONS NUMBER</td>
+                <td class="info"> 4 </td>
+            </tr>
+
+            <tr class="R1">
+                <td class="info"> RATING</td>
+                <td class="info"> 8.8/10</td>
+            </tr>
+            <tr class="R1">
+                <td class="info"> CATEGORY</td>
+                <td class="info"> ACTION</td>
+            </tr>
+        </table> 
+       
+            <form action="#video">
+                <input type="submit" value="WATCH NOW"class="watchButton"/>
+            </form>
+            <div class="selectDiv">
+                <select onchange="window.location.href=this.value"  name="menu1" id="menu1">
+                    <option value="#">Episodes</option>
+                    <option value="p2.html">Episode 01</option>
+                    <option value="https://www.dailymotion.com/video/x6wh9dc">Episode 02</option>
+                    <option value="">Episode 03</option>
+                    <option value="">Episode 04</option>
+                </select>
+                
+                <select name="menu1" id="menu1">
+                        <option value="#">Seasons</option>
+                        <option value="# ">Season 01</option>
+                        <option value="#">Season 02</option>
+                        <option value="">Season 03</option>
+                        <option value="#">Season 04</option>
+                    </select>
+
+                <select name="menu1" id="menu1">
+                    <option value="#">Download</option>
+                    <option value="#">server 01</option>
+                    <option value="#">server 02</option>
+                    <option value="">server 03</option>
+                </select> 
+            </div>
+
+           <div id="video" class="videoInfo"> Season 01 :Episode 01 </div>
+            <iframe frameborder="0" width="680" height="400" class="watching"
+                src="https://www.dailymotion.com/embed/video/x726ahd" 
+                allowfullscreen allow="autoplay">
+            </iframe>
+           </div>
+        <script src="p2.js"></script>
+    </body>
+</html>
