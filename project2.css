@@ -1,0 +1,117 @@
+body { 
+    background: url("back1.jpeg"); 
+    overflow-x: hidden; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+    position: relative; 
+} 
+
+.title { 
+    background: rgba(20, 2, 2, 0.904) 5% 5%; 
+    height: 70px; 
+    margin: 5px; 
+    padding: 15px; 
+    position: fixed; 
+    top: 0%; 
+    width: 100%; 
+    border-radius: 5px; 
+    z-index: 10; 
+} 
+
+
+.label { 
+    font-size: 40px; 
+    letter-spacing: 5px; 
+    color: rgba(175, 10, 10, 0.925); 
+    display: inline; 
+    padding: 10px; 
+}
+.main { 
+    background: hsla(206, 18%, 36%, 0.657); 
+    height: auto; 
+    width: 90%; 
+    margin: auto; 
+    padding: 30px; 
+    border-radius: 20px; 
+    position: absolute; 
+    top: 105px; 
+    left: 3%; 
+    max-width: 100%; 
+} 
+legend { 
+    background: rgba(5, 5, 5, 0.568); 
+    color: azure; 
+    font-size: 36px; 
+    letter-spacing: 10px; 
+    border-radius: 7px; 
+    padding: 10px;
+
+} 
+fieldset { 
+    height: 100%; 
+    border-color: rgba(5, 5, 5, 0.568); 
+} 
+
+a { 
+    text-decoration: none; 
+    color: rgba(197, 190, 183, 0.904); 
+
+} 
+label:hover { 
+    cursor: pointer; 
+} 
+.search { 
+    width: 60%; 
+    padding: 12px 20px; 
+    margin: 8px; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+label{
+    font-size: 40px; 
+    letter-spacing: 5px; 
+    color: rgba(4, 17, 27, 0.945); 
+    display: inline; 
+    padding: 15px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.inpu{
+    width: 40%; 
+    padding: 12px 20px; 
+    margin: 8px; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+select{
+    width: 40%;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    color: rgb(36, 25, 13);
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+.pad{
+    padding: 15px;
+}
+.submit{
+    width: 20%;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    color: rgb(36, 25, 13);
+    border-radius: 10px;
+    padding: 12px 20px;
+    background: rgba(221, 19, 19, 0.534);
+
+}
+iframe{
+    float: right;
+    padding: 2%;
+
+}
